@@ -1,3 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
 .navbar-toggler {
     width: 20px;
     height: 20px;
@@ -84,6 +92,8 @@
 }
 .logo {
     width: 30%;
+    position: absolute;
+    top: 1.6rem;
 }
 .container-fluid{
     background-color: #13033F;
@@ -102,14 +112,14 @@
 /* top-section */
 .top-section {
     background: radial-gradient(62.08% 106.32% at 0% 0%, #13033F 0%, #090319 100%);
-    width: 100%;
+    /* width: 100%; */
 }
 .top-text{
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    left: 2%;
+    /* left: 2%; */
     
 }
 .top-section h4 {
