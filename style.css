@@ -117,7 +117,17 @@
 }
 .top-section h2 {
     color: white;
-    width: 70%;
+    width: 80%;
     font-size: 6rem;
     
+}
+
+.top-section p {
+    width: 80%;
+}
+.top-section button {
+    width: 23%;
+    height: 8%;
+    font-size: large;
+    font-weight: bold;
 }
