@@ -98,3 +98,26 @@
 } */
 
 /* navigation end */
+
+/* top-section */
+.top-section {
+    background: radial-gradient(62.08% 106.32% at 0% 0%, #13033F 0%, #090319 100%);
+    width: 100%;
+}
+.top-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 2%;
+    
+}
+.top-section h4 {
+    color: red;
+}
+.top-section h2 {
+    color: white;
+    width: 70%;
+    font-size: 6rem;
+    
+}
