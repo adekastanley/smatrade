@@ -91,9 +91,9 @@
     background: linear-gradient( 263deg, white 0, rgba(252,74,74,1) 20%, rgb(0, 195, 255) 100% );
 }
 .logo {
-    width: 30%;
+    width: 20%;
     position: absolute;
-    top: 1.6rem;
+    top: 1.2rem;
 }
 .container-fluid{
     background-color: #13033F;
@@ -105,11 +105,11 @@
 
 /* navigation end */
 
-/* top-section */
+top-section
 .top-section {
-    background: radial-gradient(62.08% 106.32% at 0% 0%, #13033F 0%, #090319 100%);
+    background: radial-gradient(62.08% 106.32% at 0% 0%, #13033F 0%, #090319 100%); 
     /* width: 100%; */
-}
+} 
 .top-text{
     position: relative;
     display: flex;
@@ -138,3 +138,86 @@
     font-weight: bold;
 }
 
+/* section 2, the live data field  */
+
+.section-2{
+
+}
+
+/* section 3, this is the card section */
+ 
+/* .section-3 {
+    height: 50rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30rem;
+    background-color: rgba(215, 215, 215, 1);
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 25rem;
+ */
+
+
+
+ /* }
+.card-container h3 {
+ */
+
+/* 
+}
+.card-container p {
+
+    height: 90%;
+    background-color: red;
+}
+
+*/
+.section-3 .block1 {
+    position: relative;
+    left: 10%;
+    top: 4rem;
+}
+.section-3 .block1 h4 {
+    font-weight: bold;
+}
+ .block1 h3 {
+    font-weight: bold;
+    font-size: 70px;
+    width: 10rem;
+  
+
+}
+.card1 {
+    background: rgba(223, 218, 237, 1);
+}
+.section-3 .items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 453px;
+    /* width: 6rem; */
+}
+.section-3 p {
+    height: 15rem;
+    padding: 20%;
+    justify-items: center;
+    align-content: center;
+   
+}
+.arrows {
+    width: 4rem;
+    padding: 1rem;
+    background-color: rgba(242, 242, 242, 1);
+
+    align-self: flex-end;
+    position: relative; 
+    right:10%;
+} 
+ 
