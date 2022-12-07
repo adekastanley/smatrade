@@ -3,9 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    overflow: hidden;
-}
+/* body{
+
+} */
 .navbar-toggler {
     width: 20px;
     height: 20px;
@@ -101,11 +101,7 @@ body{
 
 }
 
-/* #ham {
 
-    left: 95%;
-    bottom: 20%;
-} */
 
 /* navigation end */
 
@@ -119,7 +115,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* left: 2%; */
+
     
 }
 .top-section h4 {
@@ -136,8 +132,9 @@ body{
     width: 80%;
 }
 .top-section button {
-    width: 23%;
+    width: 25%;
     height: 8%;
-    font-size: large;
+    font-size: 500;
     font-weight: bold;
 }
+
