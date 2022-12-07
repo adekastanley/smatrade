@@ -176,9 +176,13 @@ top-section
 }
 
 */
+.section-3{
+    position: relative;
+}
 .section-3 .block1 {
     position: relative;
-    left: 10%;
+    padding-left: 10%; 
+    margin-bottom: 10rem;
     top: 4rem;
 }
 .section-3 .block1 h4 {
@@ -193,6 +197,10 @@ top-section
 }
 .card1 {
     background: rgba(223, 218, 237, 1);
+}
+.card1 a {
+    background-color: red;
+    cursor: pointer;
 }
 .section-3 .items {
     display: flex;
@@ -215,7 +223,6 @@ top-section
     width: 4rem;
     padding: 1rem;
     background-color: rgba(242, 242, 242, 1);
-
     align-self: flex-end;
     position: relative; 
     right:10%;
