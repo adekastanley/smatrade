@@ -146,36 +146,6 @@ top-section
 
 /* section 3, this is the card section */
  
-/* .section-3 {
-    height: 50rem;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 30rem;
-    background-color: rgba(215, 215, 215, 1);
-}
-.card-container {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: 25rem;
- */
-
-
-
- /* }
-.card-container h3 {
- */
-
-/* 
-}
-.card-container p {
-
-    height: 90%;
-    background-color: red;
-}
-
-*/
 .section-3{
     position: relative;
 }
@@ -227,4 +197,39 @@ top-section
     position: relative; 
     right:10%;
 } 
+
+/* section 4  */
+
+.section-4 {
+    background: rgba(255, 255, 255, 1);
+}
+.section-4 h3 {
+    font-weight: bold;
+
+}
+
+.section-4 form {
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width: 60%; */
+    /* padding-left: 3rem;
+    padding-right: 3rem; */
+}
+.section-4 input {
+    background: rgba(242, 242, 242, 1);
+    color: rgb(133, 0, 0);
+    opacity: 1;  
+
+}
+.section-4 input::placeholder{
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.section-4 form .btn {
+    /* width: 6rem; */
+}
  
