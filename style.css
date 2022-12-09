@@ -1,235 +1,276 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 /* body{
 
 } */
 .navbar-toggler {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    transition: .5s ease-in-out;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  transition: 0.5s ease-in-out;
 }
 
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
-    border: 0;
-    position: relative;
+  outline: none;
+  box-shadow: none;
+  border: 0;
+  position: relative;
 }
 
 .navbar-toggler span {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .toggler-icon {
-    display: block;
-    position: absolute;
-    height: 3px;
-    width: 100%;
-    background: #d3531a;
-    border-radius: 1px;
-    opacity: 1;
-    left: 0;
-    transform: rotate(0deg);
-    transition: .25s ease-in-out;
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #d3531a;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
 }
 
 .middle-bar {
-    margin-top: 0px;
+  margin-top: 0px;
 }
-
 
 /* State when the navbar is collapsed */
 
 .navbar-toggler.collapsed .top-bar {
-    position: absolute;
-    top: 0px;
-    transform: rotate(0deg);
+  position: absolute;
+  top: 0px;
+  transform: rotate(0deg);
 }
 
 .navbar-toggler.collapsed .middle-bar {
-    opacity: 1;
-    position: absolute;
-    top: 10px;
-    filter: alpha(opacity=100);
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  filter: alpha(opacity=100);
 }
 
 .navbar-toggler.collapsed .bottom-bar {
-    position: absolute;
-    top: 20px;
-    transform: rotate(0deg);
+  position: absolute;
+  top: 20px;
+  transform: rotate(0deg);
 }
 
 /* when navigation is clicked */
 
 .navbar-toggler .top-bar {
-    top: inherit;
-    transform: rotate(135deg);
+  top: inherit;
+  transform: rotate(135deg);
 }
 
 .navbar-toggler .middle-bar {
-    opacity: 0;
-    top: inherit;
-    filter: alpha(opacity=0);
+  opacity: 0;
+  top: inherit;
+  filter: alpha(opacity=0);
 }
 
 .navbar-toggler .bottom-bar {
-    top: inherit;
-    transform: rotate(-135deg);
+  top: inherit;
+  transform: rotate(-135deg);
 }
 
 /* Color of 3 lines */
 
 .navbar-toggler.collapsed .toggler-icon {
-    background: linear-gradient( 263deg, white 0, rgba(252,74,74,1) 20%, rgb(0, 195, 255) 100% );
+  background: linear-gradient(
+    263deg,
+    white 0,
+    rgba(252, 74, 74, 1) 20%,
+    rgb(0, 195, 255) 100%
+  );
 }
 .logo {
-    width: 20%;
-    position: absolute;
-    top: 1.2rem;
+  width: 20%;
+  position: absolute;
+  top: 1.2rem;
 }
-.container-fluid{
-    background-color: #13033F;
-    width: 100%;
-
+.container-fluid {
+  background-color: #13033f;
+  width: 100%;
 }
-
-
 
 /* navigation end */
 
-top-section
-.top-section {
-    background: radial-gradient(62.08% 106.32% at 0% 0%, #13033F 0%, #090319 100%); 
-    /* width: 100%; */
-} 
-.top-text{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    
+top-section .top-section {
+  background: radial-gradient(
+    62.08% 106.32% at 0% 0%,
+    #13033f 0%,
+    #090319 100%
+  );
+  /* width: 100%; */
+}
+.top-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .top-section h4 {
-    color: red;
+  color: red;
 }
 .top-section h2 {
-    color: white;
-    width: 80%;
-    font-size: 6rem;
-    
+  color: white;
+  width: 80%;
+  font-size: 6rem;
 }
 
 .top-section p {
-    width: 80%;
+  width: 80%;
 }
 .top-section button {
-    width: 25%;
-    height: 8%;
-    font-size: 500;
-    font-weight: bold;
+  width: 25%;
+  height: 8%;
+  font-size: 500;
+  font-weight: bold;
 }
 
 /* section 2, the live data field  */
 
-.section-2{
-
+.section-2 {
 }
 
 /* section 3, this is the card section */
- 
-.section-3{
-    position: relative;
+
+.section-3 {
+  position: relative;
 }
 .section-3 .block1 {
-    position: relative;
-    padding-left: 10%; 
-    margin-bottom: 10rem;
-    top: 4rem;
+  position: relative;
+  padding-left: 10%;
+  margin-bottom: 10rem;
+  top: 4rem;
 }
 .section-3 .block1 h4 {
-    font-weight: bold;
+  font-weight: bold;
 }
- .block1 h3 {
-    font-weight: bold;
-    font-size: 70px;
-    width: 10rem;
-  
-
+.block1 h3 {
+  font-weight: bold;
+  font-size: 70px;
+  width: 10rem;
 }
 .card1 {
-    background: rgba(223, 218, 237, 1);
+  background: rgba(223, 218, 237, 1);
 }
 .card1 a {
-    background-color: red;
-    cursor: pointer;
+  background-color: red;
+  cursor: pointer;
 }
 .section-3 .items {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
-    height: 453px;
-    /* width: 6rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 453px;
 }
 .section-3 p {
-    height: 15rem;
-    padding: 20%;
-    justify-items: center;
-    align-content: center;
-   
+  height: 15rem;
+  padding: 20%;
+  justify-items: center;
+  align-content: center;
 }
 .arrows {
-    width: 4rem;
-    padding: 1rem;
-    background-color: rgba(242, 242, 242, 1);
-    align-self: flex-end;
-    position: relative; 
-    right:10%;
-} 
+  width: 4rem;
+  padding: 1rem;
+  background-color: rgba(242, 242, 242, 1);
+  align-self: flex-end;
+  position: relative;
+  right: 10%;
+}
 
 /* section 4  */
 
 .section-4 {
-    background: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 1);
 }
 .section-4 h3 {
-    font-weight: bold;
-
+  font-weight: bold;
 }
 
 .section-4 form {
-    /* display: flex;
-    flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* width: 60%; */
-    /* padding-left: 3rem;
-    padding-right: 3rem; */
 }
 .section-4 input {
-    background: rgba(242, 242, 242, 1);
-    color: rgb(133, 0, 0);
-    opacity: 1;  
-
+  background: rgba(242, 242, 242, 1);
+  color: rgb(133, 0, 0);
+  opacity: 1;
 }
-.section-4 input::placeholder{
-    color: black;
-    font-weight: bold;
-    font-size: 10px;
+.section-4 input::placeholder {
+  color: black;
+  font-weight: bold;
+  font-size: 10px;
 }
 
 .section-4 form .btn {
-    /* width: 6rem; */
 }
- 
+
+/* footer  */
+footer {
+  background: rgba(9, 3, 25, 1);
+  color: white;
+}
+.top-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-input {
+  display: flex;
+  width: 60%;
+}
+footer input::placeholder {
+  color: black;
+  font-weight: bold;
+  font-size: 10px;
+}
+.footer-input input {
+  width: 60%;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.footer-input .btn {
+  width: 40%;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  background-color: rgba(238, 38, 41, 1);
+}
+
+footer .footer-logo {
+  width: 10rem;
+}
+.right-bottom {
+}
+.right-bottom p {
+  margin: 0.1rem 0 0.1rem 0;
+}
+
+.left-bottom {
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  color: white;
+  width: 100%;
+}
+
+.left-bottom a,
+li {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
