@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 /* body{
-
-} */
+  
+  } */
 .navbar-toggler {
   width: 20px;
   height: 20px;
@@ -100,10 +100,10 @@
   top: 1.2rem;
 }
 /* .navigation,
-.top-section {
-  background-color: #13033f;
-  width: 100%;
-} */
+  .top-section {
+    background-color: #13033f;
+    width: 100%;
+  } */
 
 .navigation,
 .top-section {
@@ -120,7 +120,7 @@
 
 /* navigation end */
 
-top-section .top-section {
+.top-section {
   background: radial-gradient(
     62.08% 106.32% at 0% 0%,
     #13033f 0%,
