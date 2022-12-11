@@ -6,11 +6,15 @@ header .col-lg-6 img {
   left: 6rem;
   top: 12rem;
 } */
+
+/* desktop view  */
 @media only screen and (min-device-width: 768px) /* and (max-device-width: 1024px) */ /* and (orientation: portrait) */ {
   .image-container {
     position: absolute;
     top: 10rem;
     left: 50rem;
+    height: 80rem;
+    padding-left: 10rem;
   }
   header {
     height: 45rem;
@@ -27,16 +31,44 @@ header .col-lg-6 img {
     position: relative;
     left: 4rem;
   }
+
+  /* section 2 view for desktop  */
+  .about-section-2 {
+    height: 45rem;
+  }
+  .about-section-2 .row {
+    padding: 2rem 6rem;
+  }
+  .about-section-2 h3 {
+    font-size: 700%;
+    font-weight: bold;
+  }
+  .about-section-2 p {
+    width: 40%;
+    text-align: start;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+  }
+  /* section 3 desktop view  */
+  .about-section-3 .row {
+    padding: 2rem 6rem;
+  }
+  .about-section-3 h3 {
+    font-size: 300%;
+  }
+  .about-section-3 p {
+    font-size: 150%;
+  }
 }
 
+/* for mobile view  */
 @media only screen and (max-device-width: 768px) /* and (max-device-width: 1024px) */ /* and (orientation: portrait) */ {
   header {
     height: 25rem;
   }
   .image-container {
     display: none;
-    /* clip-path: circle(0); */
-    /* visibility: hidden; */
   }
   .text-container {
     height: 20rem;
@@ -48,9 +80,42 @@ header .col-lg-6 img {
     font-size: 40px;
     padding-top: 6rem;
   }
+
+  /* section 2 mobile styles  */
+  .icon-div img {
+    width: 1rem;
+  }
+  .icon-div ul {
+  }
+  .icon-div ul li {
+  }
+  .icon-div ul span {
+    font-size: 10px;
+  }
+  .about-section-2 {
+    height: 20rem;
+  }
+  .about-section-2 h3 {
+    font-size: 300%;
+  }
+  .about-section-2 p {
+    width: 100%;
+    color: black;
+  }
+
+  /* section 3 desktop view  */
+  .about-section-3 h3 {
+    font-size: 200%;
+  }
+  .about-section-3 p {
+    font-size: 80%;
+    text-align: left;
+  }
 }
 
 /* media query end above */
+
+/* general styles  */
 .text-container {
 }
 .text-container h3 {
@@ -59,9 +124,66 @@ header .col-lg-6 img {
 }
 .image-container {
   display: flex;
-  /* width: 100%; */
 }
 
+/* section 2  */
 .about-section-2 {
-  height: 80vh;
+  display: flex;
+  justify-content: center;
+  padding-left: 3rem;
+}
+
+.section-2-inner {
+  width: 100%;
+}
+
+.section-2-left-wrapper {
+  width: 100%;
+}
+.icon-div {
+  width: 100%;
+  margin: 0 0;
+  padding: 0;
+}
+.icon-div img {
+  width: 1.5rem;
+}
+.icon-div ul {
+  display: flex;
+  width: 100%;
+  justify-items: left;
+  margin: 0 0;
+  padding-left: 0;
+}
+.icon-div ul li {
+  margin: 0 0.1rem;
+}
+.icon-div ul span {
+  color: black;
+  margin: 0 0.5rem;
+}
+
+/* section 3   */
+.about-section-3 {
+  display: flex;
+  justify-content: center;
+  margin: 10rem 0;
+}
+.about-section-3 h3,
+p {
+  color: aliceblue;
+}
+/* .about-section-3 h3 {
+  font-size: 300%;
+}
+.about-section-3 p {
+} */
+.about-section-3 .content-wrapper {
+  background: rgba(9, 3, 25, 1);
+  border-radius: 12px;
+}
+.about-section-3 .content-box {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
 }
