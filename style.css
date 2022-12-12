@@ -99,11 +99,6 @@
   position: absolute;
   top: 1.2rem;
 }
-/* .navigation,
-  .top-section {
-    background-color: #13033f;
-    width: 100%;
-  } */
 
 .navigation,
 .top-section {
@@ -163,6 +158,9 @@
 .section-3 {
   position: relative;
 }
+.section-3 .row {
+  padding: 5%;
+}
 .section-3 .block1 {
   position: relative;
   padding-left: 10%;
@@ -190,6 +188,8 @@
   justify-content: center;
   align-items: center;
   height: 453px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(215, 215, 215, 1);
 }
 .section-3 p {
   height: 15rem;

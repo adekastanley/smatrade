@@ -1,13 +1,5 @@
-/* header .col-sm-12 img {
-  position: relative;
-}
-header .col-lg-6 img {
-  position: relative;
-  left: 6rem;
-  top: 12rem;
-} */
-
 /* desktop view  */
+
 @media only screen and (min-device-width: 768px) /* and (max-device-width: 1024px) */ /* and (orientation: portrait) */ {
   .image-container {
     position: absolute;
@@ -60,7 +52,20 @@ header .col-lg-6 img {
   .about-section-3 p {
     font-size: 150%;
   }
+
+  /* services page styles for desktop view below  */
+
+  .block1 h3 {
+    font-weight: bold;
+    font-size: 50px;
+    width: 20rem;
+  }
+
+  .services-header {
+    background-size: cover;
+  }
 }
+/* media query for desktop ends above  */
 
 /* for mobile view  */
 @media only screen and (max-device-width: 768px) /* and (max-device-width: 1024px) */ /* and (orientation: portrait) */ {
@@ -104,6 +109,9 @@ header .col-lg-6 img {
   }
 
   /* section 3 desktop view  */
+  .section-3 {
+    /* padding: 2rem; */
+  }
   .about-section-3 h3 {
     font-size: 200%;
   }
@@ -111,9 +119,33 @@ header .col-lg-6 img {
     font-size: 80%;
     text-align: left;
   }
+
+  /* 
+  *
+  * sevices page css for mobile view
+  * 
+  */
+
+  .services-header {
+    background-size: contain;
+
+    /* padding-top: 5rem; */
+    height: 5rem;
+  }
+
+  .block1 h3 {
+    font-weight: bold;
+    font-size: 50px;
+    width: 100%;
+    background-color: red;
+  }
+
+  .items img {
+    width: 3rem;
+  }
 }
 
-/* media query end above */
+/* media query for mobile ends above */
 
 /* general styles  */
 .text-container {
@@ -187,3 +219,24 @@ p {
   flex-direction: column;
   align-self: center;
 }
+
+/* services pages css  */
+
+.services-header {
+  background-image: url("../images/service-banner.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+.arrows {
+  width: 6rem;
+  padding: 1rem;
+}
+
+.section-3 p {
+  color: black;
+}
+
+/* .block1 h3 {
+   this tag has its styles edited in the media query
+} */
