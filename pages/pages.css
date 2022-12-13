@@ -25,12 +25,11 @@ body {
     font-size: 60px;
     font-weight: bold;
     position: relative;
-    left: 4rem;
+    /* left: 4rem; */
   }
 
   /* section 2 view for desktop  */
   .about-header {
-    /* width: 100px; */
   }
   .image-container {
     width: 30rem;
@@ -99,6 +98,13 @@ body {
   }
   .market-section-2 {
     background-color: #090319;
+  }
+  .market-section-2 h3 {
+    font-size: 300%;
+  }
+  .market-form .btn {
+    position: relative;
+    left: 12rem;
   }
 }
 /* media query for desktop ends above  */
@@ -195,18 +201,31 @@ body {
   * market page css for mobile view
   * 
   */
+
+  .market-section-2 h3 {
+    font-size: 150%;
+  }
+  .contact-container img {
+    display: none;
+  }
+  .contact-container form {
+    margin-bottom: 2rem;
+  }
 }
 
 /* media query for mobile ends above */
 
 /* general styles  */
-/* .text-container {
-} */
 
-/* about page styles  */
-.about-header {
-  /* width: 10rem; */
-}
+/* *
+
+*about page styles 
+
+* */
+
+/* .about-header {
+ edits made in the desktop view  
+} */
 .text-container h3 {
   font-size: 80px;
   font-weight: bold;
@@ -308,5 +327,21 @@ this is edited at the idividual media queries
   background-color: #090319;
 }
 .market-section-2 h3 {
-  margin: 1rem 0 1rem 0;
+  margin: 2rem 0 1rem 0;
+  padding: 0 2rem;
+
+  /* media query edited  */
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+.contact-container form {
+  /* position: relative; */
+  /* background-color: red; */
+}
+.contact-container form .btn {
+  /* position: relative;
+  right: 13rem; */
 }
