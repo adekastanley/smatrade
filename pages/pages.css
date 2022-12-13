@@ -63,9 +63,31 @@
 
   .services-header {
     background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
   }
+
+  .items img {
+    width: 2rem;
+  }
+  .arrows {
+    width: 4rem;
+    padding: 1rem;
+  }
+
+  /* 
+  *
+  * market page css for desktop view
+  * 
+  */
 }
 /* media query for desktop ends above  */
+
+/* ***
+*
+* 
+*
+* ***/
 
 /* for mobile view  */
 @media only screen and (max-device-width: 768px) /* and (max-device-width: 1024px) */ /* and (orientation: portrait) */ {
@@ -90,10 +112,10 @@
   .icon-div img {
     width: 1rem;
   }
-  .icon-div ul {
+  /* .icon-div ul {
   }
   .icon-div ul li {
-  }
+  } */
   .icon-div ul span {
     font-size: 10px;
   }
@@ -109,9 +131,9 @@
   }
 
   /* section 3 desktop view  */
-  .section-3 {
-    /* padding: 2rem; */
-  }
+  /* .section-3 {
+   
+  } */
   .about-section-3 h3 {
     font-size: 200%;
   }
@@ -127,9 +149,11 @@
   */
 
   .services-header {
-    background-size: contain;
+    background-size: cover;
+    background-attachment: scroll;
 
-    /* padding-top: 5rem; */
+    padding-bottom: 11rem;
+    /* width: 10px; */
     height: 5rem;
   }
 
@@ -137,19 +161,29 @@
     font-weight: bold;
     font-size: 50px;
     width: 100%;
-    background-color: red;
   }
 
   .items img {
-    width: 3rem;
+    width: 1rem;
   }
+  .arrows {
+    width: 3rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* 
+  *
+  * market page css for mobile view
+  * 
+  */
 }
 
 /* media query for mobile ends above */
 
 /* general styles  */
-.text-container {
-}
+/* .text-container {
+} */
 .text-container h3 {
   font-size: 80px;
   font-weight: bold;
@@ -224,14 +258,18 @@ p {
 
 .services-header {
   background-image: url("../images/service-banner.png");
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-repeat: no-repeat;
+  width: 100%;
   /* background-size: cover; */
 }
-.arrows {
-  width: 6rem;
-  padding: 1rem;
+/* .items img {
+
 }
+this is edited at the idividual media queries
+.arrows {
+
+} */
 
 .section-3 p {
   color: black;
@@ -240,3 +278,5 @@ p {
 /* .block1 h3 {
    this tag has its styles edited in the media query
 } */
+
+/* market page css  */
