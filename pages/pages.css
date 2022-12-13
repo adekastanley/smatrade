@@ -1,5 +1,9 @@
 /* desktop view  */
 
+body {
+  background-color: #090319;
+}
+
 @media only screen and (min-device-width: 768px) /* and (max-device-width: 1024px) */ /* and (orientation: portrait) */ {
   .image-container {
     position: absolute;
@@ -25,6 +29,16 @@
   }
 
   /* section 2 view for desktop  */
+  .about-header {
+    /* width: 100px; */
+  }
+  .image-container {
+    width: 30rem;
+    height: 40rem;
+    position: relative;
+    top: 25rem;
+    left: 25rem;
+  }
   .about-section-2 {
     height: 45rem;
   }
@@ -80,6 +94,12 @@
   * market page css for desktop view
   * 
   */
+  .market-header {
+    height: 20rem;
+  }
+  .market-section-2 {
+    background-color: #090319;
+  }
 }
 /* media query for desktop ends above  */
 
@@ -151,9 +171,7 @@
   .services-header {
     background-size: cover;
     background-attachment: scroll;
-
     padding-bottom: 11rem;
-    /* width: 10px; */
     height: 5rem;
   }
 
@@ -184,12 +202,18 @@
 /* general styles  */
 /* .text-container {
 } */
+
+/* about page styles  */
+.about-header {
+  /* width: 10rem; */
+}
 .text-container h3 {
   font-size: 80px;
   font-weight: bold;
 }
 .image-container {
   display: flex;
+  position: relative;
 }
 
 /* section 2  */
@@ -258,10 +282,9 @@ p {
 
 .services-header {
   background-image: url("../images/service-banner.png");
-  /* background-attachment: fixed; */
+
   background-repeat: no-repeat;
   width: 100%;
-  /* background-size: cover; */
 }
 /* .items img {
 
@@ -280,3 +303,10 @@ this is edited at the idividual media queries
 } */
 
 /* market page css  */
+
+.market-section-2 {
+  background-color: #090319;
+}
+.market-section-2 h3 {
+  margin: 1rem 0 1rem 0;
+}
