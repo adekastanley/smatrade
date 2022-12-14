@@ -129,6 +129,24 @@ body {
     left: 90%;
     bottom: 3rem;
   }
+
+  /* *
+* login page css
+* */
+  .logincompimg {
+    position: absolute;
+    width: 60rem;
+    z-index: -1;
+    right: 12rem;
+    bottom: 2rem;
+  }
+  .loginphoneimg {
+    position: absolute;
+    width: 20rem;
+    z-index: -1;
+    right: 25rem;
+    bottom: 3rem;
+  }
 }
 /* media query for desktop ends above  */
 
@@ -248,6 +266,33 @@ body {
   .signup-section-2 .signup-card img {
     left: 90%;
     bottom: -1rem;
+  }
+
+  /* *
+* login page css
+* */
+  .form-container h2 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .logincompimg {
+    position: absolute;
+    width: 80rem;
+    z-index: -1;
+    right: 1rem;
+    bottom: 12rem;
+  }
+  .loginphoneimg {
+    /* position: absolute;
+  width: 20rem;
+  z-index: -1;
+  right: 25rem;
+  bottom: 3rem; */
+    display: none;
+  }
+  .loginformlogo {
+    width: 10rem;
+    padding-top: 3rem;
   }
 }
 
@@ -423,4 +468,60 @@ this is edited at the idividual media queries
   position: relative;
   top: 60%;
   /* padding-top: 10rem;  edited in media query */
+}
+
+/* *
+* Login page css
+* */
+
+.login-wallpaper {
+  background-image: url("../images/loginwallpaper.png");
+  width: 100px;
+}
+.login-wrapper {
+  /* display: flex; */
+  padding: 4rem;
+}
+.login-container {
+  color: black;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(15px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30rem;
+  width: 30rem;
+  /* padding: 5rem; */
+}
+.login-container form {
+}
+.form-container {
+  width: 100%;
+}
+.login-container p {
+  color: black;
+}
+.login-container form .btn {
+  width: 100%;
+}
+.loginbody {
+  background: radial-gradient(
+    70.4% 70.4% at 3.82% 2.39%,
+    rgba(19, 3, 63, 0.3) 0%,
+    rgba(9, 3, 25, 0.3) 100%
+  );
+}
+
+.logincompimg {
+  position: absolute;
+  /* width: 60rem; */
+  z-index: -1;
+  /* right: 5rem; */
+}
+.loginphoneimg {
+  position: absolute;
+  width: 20rem;
+  z-index: -1;
+  /* right: 15rem; */
 }
