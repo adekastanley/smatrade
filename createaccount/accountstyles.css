@@ -1,0 +1,19 @@
+body {
+  background-color: rgba(255, 255, 255, 1);
+}
+header {
+  height: 30rem;
+
+  background: radial-gradient(
+    70.4% 70.4% at 3.82% 2.39%,
+    #13033f 0%,
+    #090319 100%
+  );
+}
+
+/* for mobile view  */
+@media only screen and (max-device-width: 768px) {
+}
+/* for desktop view  */
+@media only screen and (min-device-width: 768px) {
+}
