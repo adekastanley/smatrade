@@ -13,26 +13,26 @@
     <link rel="stylesheet" href="../plugins/bootstrap.min.css" />
     <link href="./accountstyles.css" rel="stylesheet" />
 
-    <title>SMATRADE - Create Personal account</title>
+    <title>SMATRADE - Create a Personal account</title>
   </head>
   <body>
     <header>
         <img src="../images/logo.png" alt="">
-        <h1>create personal account</h1>
+        <h1>create a personal account</h1>
     </header>
 
     <div class="container form-wrapper">
-        <form >
+        <form  class="create-info-wrapper">
             <div class="page page1">
                
                 <div class="field-wrapper row row-1"> 
                     <!-- this is used to help with the placement of fields -->
                     <div class="form-group col-lg-6">
                         
-                        <input type="text" id="surname" name="surname" placeholder="surname" >
+                        <input type="text"  class="form-control" id="surname" name="surname" placeholder="surname" >
                     </div>
                     <div class="form-group col-lg-6">
-                        <input type="text" id="surname" name="surname" placeholder="first name" >
+                        <input type="text" class="form-control" id="surname" name="surname" placeholder="first name" >
                     </div>
                 </div>
                 <!-- row 1 end -->
@@ -40,15 +40,17 @@
                     <!-- this is used to help with the placement of fields -->
                     <div class="form-group col-lg-6">
                         
-                        <input type="text" id="middlename" name="middlename" placeholder="middle name" >
+                        <input type="text" class="form-control" id="middlename" name="middlename" placeholder="middle name" >
                     </div>
 
-          
-                    <select class="form-group col-lg-3" aria-label="Default select title">
-                        <option selected>select Title</option>
-                        <option value="mr">mr</option>
-                        <option value="mrs">Mrs</option>
-                      </select>
+                    <div  class="form-group col-lg-3">
+                        <select class="form-control  col-lg-3" aria-label="Default select title">
+                            <option selected>select Title</option>
+                            <option value="mr">mr</option>
+                            <option value="mrs">Mrs</option>
+                          </select>
+                    </div>
+
 
                     <div class="form-group col-lg-3">
                         <input id="Date" class="form-control" type="date" />
@@ -57,55 +59,52 @@
                 <!-- row-2 end -->
 
                 <div class="field-wrapper row row-3"> 
-                    <!-- this is used to help with the placement of fields -->
-                    <div class="form-group col-lg-6">
-                        <input type="text" id="middlename" name="middlename" placeholder="middle name" >
+                    <div class="from-group col-lg-6">
+                        <select class="form-control " id="sor" aria-label="Default select title">
+                            <option selected>state of origin</option>
+                            <option value="Abia">Abia</option>
+                            <option value="Adamawa">Adamawa</option>
+                            <option value="Akwa Ibom">Akwa Ibom</option>
+                            <option value="Anambra">Anambra</option>
+                            <option value="Bauchi">Bauchi</option>
+                            <option value="Benue">Benue</option>
+                            <option value="Borno">Borno</option>
+                            <option value="Cross River">Cross River</option>
+                            <option value="Delta">Delta</option>
+                            <option value="Ebonyi">Ebonyi</option>
+                            <option value="Edo">Edo</option>
+                            <option value="Ekiti">Ekiti</option>
+                            <option value="Enugu">Enugu</option>
+                            <option value="fct">Fct</option>
+                            <option value="Gombe">Gombe</option>
+                            <option value="Imo">Imo</option>
+                            <option value="Jigawa">Jigawa</option>
+                            <option value="Kaduna">Kaduna</option>
+                            <option value="Kano">Kano</option>
+                            <option value="Katsina">Katsina</option>
+                            <option value="Kebbi">Kebbi</option>
+                            <option value="Kogi">Kogi</option>
+                            <option value="Kwara">Kwara</option>
+                            <option value="Lagos">Lagos</option>
+                            <option value="Nasarawa">Nasarawa</option>
+                            <option value="Niger">Niger</option>
+                            <option value="Ogun">Ogun</option>
+                            <option value="Ondo">Ondo</option>
+                            <option value="Osun">Osun</option>
+                            <option value="Oyo">Oyo</option>
+                            <option value="Plateau">Plateau</option>
+                            <option value="Rivers">Rivers</option>
+                            <option value="Sokoto">Sokoto</option>
+                            <option value="Taraba">Taraba</option>
+                            <option value="Yobe">Yobe</option>
+                            <option value="Zamfara">Zamfara</option>
+                            <option value="Kebbi">Kebbi</option>
+                          </select>
+    
                     </div>
-
-
-                    <select class="form-group col-lg-3" id="sor" aria-label="Default select title">
-                        <option selected>state of origin</option>
-                        <option value="Abia">Abia</option>
-                        <option value="Adamawa">Adamawa</option>
-                        <option value="Akwa Ibom">Akwa Ibom</option>
-                        <option value="Anambra">Anambra</option>
-                        <option value="Bauchi">Bauchi</option>
-                        <option value="Benue">Benue</option>
-                        <option value="Borno">Borno</option>
-                        <option value="Cross River">Cross River</option>
-                        <option value="Delta">Delta</option>
-                        <option value="Ebonyi">Ebonyi</option>
-                        <option value="Edo">Edo</option>
-                        <option value="Ekiti">Ekiti</option>
-                        <option value="Enugu">Enugu</option>
-                        <option value="fct">Fct</option>
-                        <option value="Gombe">Gombe</option>
-                        <option value="Imo">Imo</option>
-                        <option value="Jigawa">Jigawa</option>
-                        <option value="Kaduna">Kaduna</option>
-                        <option value="Kano">Kano</option>
-                        <option value="Katsina">Katsina</option>
-                        <option value="Kebbi">Kebbi</option>
-                        <option value="Kogi">Kogi</option>
-                        <option value="Kwara">Kwara</option>
-                        <option value="Lagos">Lagos</option>
-                        <option value="Nasarawa">Nasarawa</option>
-                        <option value="Niger">Niger</option>
-                        <option value="Ogun">Ogun</option>
-                        <option value="Ondo">Ondo</option>
-                        <option value="Osun">Osun</option>
-                        <option value="Oyo">Oyo</option>
-                        <option value="Plateau">Plateau</option>
-                        <option value="Rivers">Rivers</option>
-                        <option value="Sokoto">Sokoto</option>
-                        <option value="Taraba">Taraba</option>
-                        <option value="Yobe">Yobe</option>
-                        <option value="Zamfara">Zamfara</option>
-                        <option value="Kebbi">Kebbi</option>
-                      </select>
-
-                      <div class="form-group col-lg-3">
-                        <input type="text" id="localgovernment" name="localgovernment" placeholder="local government" >
+                  
+                      <div class="form-group col-lg-6">
+                        <input type="text" id="localgovernment" class="form-control" name="localgovernment" placeholder="Local government" >
                     </div>
                   
                 </div>
@@ -113,55 +112,51 @@
 
                 <div class="field-wrapper row row-4"> 
                     <!-- this is used to help with the placement of fields -->
-                    <div class="form-group col-lg-6">
-                        
-                        <select class="form-group col-lg-6" id="nationality" aria-label="Default select nationality">
+                    <div class="form-group col-lg-6">     
+                        <select class="form-control" id="nationality" aria-label="Default select nationality">
                             <option selected>nationality</option>
                             <option value="mr">nigeria</option>
                             <option value="mrs">ghana</option>
                           </select>
                     </div>
-                    <div class="form-group col-lg-6">
-                    
-                    </div>
+
                 </div>
                 <!-- row-4 end -->
+
                 <div class="field-wrapper row row-5"> 
                     <!-- this is used to help with the placement of fields -->
                     <div class="form-group col-lg-6">
                         
-                        <select class="form-group col-lg-6" id="id-type" aria-label="Default select id type">
+                        <select class="form-control " id="id-type" aria-label="Default select id type">
                             <option selected>id type</option>
                             <option value="mr">drivers lincence</option>
                             <option value="mrs">voter card</option>
                           </select>
                     </div>
                     <div class="form-group col-lg-6">
-                        <input type="text" id="id-number" name="localgovernment" placeholder="id number" > 
+                        <input type="text" class="form-control" id="id-number" name="localgovernment" placeholder="id number" > 
                     </div>
                 </div>
                 <!-- row-5 end -->
 
                 <div class="field-wrapper row row-6"> 
                     <!-- this is used to help with the placement of fields -->
-                    <div class="form-group col-lg-6 row">
-                        <div class="col-lg-6">
-                                <input id="id-Date" class="form-control" type="date" />
+               
+                        <div class="col-lg-3 form-group">
+                            <input id="id-Date" class="form-control" type="date" />
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-3 form-group">
                             <input id="id-expiry"  class="form-control" type="date" />
                         </div>
-                    </div>
-                    <div class="form-group col-lg-6">
-                       
-                    </div>
+     
+
                 </div>
                 <!-- row-6 end -->
             
                 <div class="field-wrapper row row-7"> 
                     <!-- this is used to help with the placement of fields -->
                   <div class="col-lg-12">
-                    <input id="address"  class="form-control" type="text" placeholder="redidential address" />
+                    <input id="address"  class="form-control" type="text" placeholder="residential address" />
                   </div>
                 </div>
                 <!-- row-7 end -->
@@ -181,15 +176,16 @@
                     <!-- this is used to help with the placement of fields -->
                     <div class="form-group col-lg-4 ">
                      
-                        <select class="form-group col-lg-6" id="occupation" aria-label="Default select occupation">
+                        <select class="form-control " id="occupation" aria-label="Default select occupation">
                             <option selected>occupation</option>
                             <option value="driver">driver </option>
                             <option value="pilot">pilot</option>
-                          </select>
+                        </select>
+                    </div>
                 </div>
                 <!-- row-9 end -->
 
-                <div class="field-wrapper row row-9"> 
+                <div class="field-wrapper row row-10"> 
                     <!-- this is used to help with the placement of fields -->
                     <div class="form-group col-lg-6 ">
                         <input id="mmn"  class="form-control" type="text" placeholder="Mothers maidian name" />
@@ -198,28 +194,73 @@
                         <input id="nok"  class="form-control" type="text" placeholder="Next of kin" />
                     </div>
                 </div>
-                <!-- row-9 end -->
+                <!-- row-10 end -->
             
-                <div class="field-wrapper row row-10"> 
+                <div class="field-wrapper row row-11"> 
                     <!-- this is used to help with the placement of fields -->
                     <div class="form-group col-lg-12 ">
                         <input id="purpose"  class="form-control" type="text" placeholder="Purpose for opening account" />
                     </div>
    
                 </div>
-                <!-- row-10 end -->
+                <!-- row-11 end -->
 
-                <div class="field-wrapper row row-11"> 
+                <div class="field-wrapper row row-12"> 
                     <!-- this is used to help with the placement of fields -->
                     <div class="form-group col-lg-6 ">
                         <input id="soi"  class="form-control" type="text" placeholder="Source of income" />
                     </div>
                     <div class="form-group col-lg-6">
-                        <input id="investment-amount"  class="form-control" type="text" placeholder="initial investment amout" />
+                        <input id="investment-amount"  class="form-control" type="text" placeholder="initial investment amount" />
                     </div>
                 </div>
-                <!-- row-11 end -->
+                <!-- row-12 end -->
+                <div class="field-wrapper row row-13"> 
+                    <!-- this is used to help with the placement of fields -->
+                    <div class="form-group col-lg-3 ">
+                          
+                        <select class="form-control " id="bankname" aria-label="Default select occupation">
+                            <option selected>select bank</option>
+                            <option value="gtb">GT bank </option>
+                            <option value="wema">Wema bank</option>
+                            <option value="access">Access bank</option>
+
+                          </select>
+                    </div>
+                
+                </div>
+                <!-- row-13 end -->
+                <div class="field-wrapper row row-14"> 
+                    <!-- this is used to help with the placement of fields -->
+                    <div class="form-group col-lg-6 ">
+                        <input id="soi"  class="form-control" type="text" placeholder="Branch location" />
+                    </div>
+                   
+                </div>
+                <!-- row-14 end -->
+
+                <div class="field-wrapper row row-15"> 
+                    <!-- this is used to help with the placement of fields -->
+                    <div class="form-group col-lg-6 ">
+                        <input id="account-name"  class="form-control" type="text" placeholder="account name" />
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <input id="account-number"  class="form-control" type="text" placeholder="account number" />
+                    </div>
+                </div>
+                <!-- row-15 end -->
             
+                <div class="field-wrapper row row-16"> 
+                    <!-- this is used to help with the placement of fields -->
+                    <div class="form-group col-lg-6 ">
+                        <input id="opening-date"  class="form-control" type="text" placeholder="opening date" />
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <input id="bvn"  class="form-control" type="text" placeholder="bvn" />
+                    </div>
+                </div>
+                <!-- row-16 end -->
+
             
             
             </div>

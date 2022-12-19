@@ -13,7 +13,37 @@ header {
 
 /* for mobile view  */
 @media only screen and (max-device-width: 768px) {
+  header h1 {
+    color: white;
+    position: relative;
+    left: 3rem;
+    top: 3rem;
+    font-size: 60px;
+    width: 90%;
+  }
 }
+
 /* for desktop view  */
 @media only screen and (min-device-width: 768px) {
+  header h1 {
+    color: white;
+    position: relative;
+    left: 3rem;
+    top: 3rem;
+    font-size: 70px;
+    width: 50%;
+  }
+}
+
+.create-info-wrapper {
+  position: relative;
+  bottom: 10rem;
+  background-color: #f2f2f2;
+  margin: 1rem;
+  padding: 3rem;
+  border-radius: 40px;
+}
+
+.create-info-wrapper div {
+  margin: 0.2rem 0;
 }
