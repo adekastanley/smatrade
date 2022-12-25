@@ -11,7 +11,7 @@ header {
   );
 }
 .mainlogo {
-  width: 10rem;
+  width: 15rem;
 }
 /* for mobile view  */
 @media only screen and (max-device-width: 768px) {
