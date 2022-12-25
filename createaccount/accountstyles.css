@@ -103,3 +103,9 @@ header {
   width: 40px;
   padding-bottom: 3rem;
 }
+
+.form-label {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
