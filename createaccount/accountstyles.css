@@ -113,3 +113,16 @@ header {
   width: 40px;
   padding-bottom: 3rem;
 }
+
+.val-btn {
+  background-color: #13033f;
+  color: #f2f2f2;
+  width: 6rem;
+  height: 3rem;
+  margin-right: auto;
+  margin-left: 1rem;
+}
+.val-btn:hover {
+  background-color: #13033fee;
+  color: #f2f2f2;
+}
