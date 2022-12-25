@@ -40,6 +40,11 @@ header {
     display: flex;
     justify-content: center;
   }
+  .form-label {
+    font-size: 5px;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 /* for desktop view  */
@@ -68,6 +73,11 @@ header {
     display: flex;
     /* flex-direction: column; */
     justify-content: center;
+  }
+  .form-label {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -102,10 +112,4 @@ header {
 .card-wrapper img {
   width: 40px;
   padding-bottom: 3rem;
-}
-
-.form-label {
-  font-size: 10px;
-  margin: 0;
-  padding: 0;
 }
