@@ -23,7 +23,23 @@ header {
     font-size: 60px;
     width: 70%;
   }
+
   /* these styles are for the download resource page.... mobile view  */
+  .card-wrapper {
+    background-color: #ffffff;
+    margin: 2rem;
+    /* height: 15rem; */
+    padding: 1rem;
+    /* 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* width: 13rem; */
+  }
+  .create-info-wrapper .row {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* for desktop view  */
@@ -37,6 +53,22 @@ header {
     width: 50%;
   }
   /* these styles are for the download resource page.... desktop view  */
+  .card-wrapper {
+    background-color: #ffffff;
+    margin: 2rem;
+    height: 15rem;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 13rem;
+  }
+  .create-info-wrapper .row {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+  }
 }
 
 /* media query ends here  */
@@ -54,26 +86,12 @@ header {
 }
 
 /* these styles are for the download resource page.... general  */
-.create-info-wrapper {
-}
-.create-info-wrapper .card-1 {
-  background-color: #d7d7d7;
-}
-.card-wrapper {
-  background-color: #ffffff;
-  margin: 2rem;
-  height: 15rem;
-  padding: 1rem;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 13rem;
+.card-wrapper {
+  transition: all ease 0.3s;
 }
-.create-info-wrapper .row {
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
+.card-wrapper:hover {
+  background-color: #d7d7d7;
 }
 .create-info-wrapper .row .create-info-wrapper {
   /* margin: 2rem; */
