@@ -10,8 +10,33 @@ header {
     #090319 100%
   );
 }
+
 .mainlogo {
   width: 15rem;
+}
+
+/* multi step styles */
+
+.mulstep-btn-cont {
+}
+.mulstep-btn-cont .btn {
+  width: 10%;
+  color: #f2f2f2;
+}
+.mulstep-btn-cont .btn-left {
+  margin-right: auto;
+  margin-left: 0.1rem;
+  background-color: #8b8989;
+}
+.mulstep-btn-cont .btn-right {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+.step {
+  display: none;
+}
+.step.active {
+  display: block;
 }
 /* for mobile view  */
 @media only screen and (max-device-width: 768px) {
