@@ -20,7 +20,6 @@ header {
 .mulstep-btn-cont {
 }
 .mulstep-btn-cont .btn {
-  width: 10%;
   color: #f2f2f2;
 }
 .mulstep-btn-cont .btn-left {
@@ -47,6 +46,9 @@ header {
     top: 3rem;
     font-size: 60px;
     width: 70%;
+  }
+  .mulstep-btn-cont .btn {
+    width: 30%;
   }
 
   /* these styles are for the download resource page.... mobile view  */
@@ -81,6 +83,9 @@ header {
     top: 3rem;
     font-size: 70px;
     width: 50%;
+  }
+  .mulstep-btn-cont .btn {
+    width: 10%;
   }
   /* these styles are for the download resource page.... desktop view  */
   .card-wrapper {
