@@ -52,10 +52,48 @@ header {
   }
 }
 
+/* for mobile view  */
+@media only screen and (max-device-width: 768px) {
+  header h1 {
+    color: white;
+    position: relative;
+    left: 3rem;
+    top: 3rem;
+    font-size: 60px;
+    width: 70%;
+  }
+  .mulstep-btn-cont .btn {
+    width: 30%;
+  }
+
+  /* these styles are for the download resource page.... mobile view  */
+  .card-wrapper {
+    background-color: #ffffff;
+    margin: 2rem;
+    /* height: 15rem; */
+    padding: 1rem;
+    /* 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* width: 13rem; */
+  }
+  .create-info-wrapper .row {
+    display: flex;
+    justify-content: center;
+  }
+  .form-label {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
 /* media query ends here  */
 .create-info-wrapper {
   position: relative;
   bottom: 10rem;
+
   background-color: #f2f2f2;
   margin: 1rem;
   padding: 3rem;
@@ -67,7 +105,10 @@ header {
 }
 
 /* these styles are for the download resource page.... general  */
-
+.resource {
+  height: 12rem;
+  padding-top: 4rem;
+}
 .card-wrapper {
   transition: all ease 0.3s;
 }
@@ -150,41 +191,4 @@ header {
 }
 .show-resource {
   display: block;
-}
-
-/* for mobile view  */
-@media only screen and (max-device-width: 768px) {
-  header h1 {
-    color: white;
-    position: relative;
-    left: 3rem;
-    top: 3rem;
-    font-size: 60px;
-    width: 70%;
-  }
-  .mulstep-btn-cont .btn {
-    width: 30%;
-  }
-
-  /* these styles are for the download resource page.... mobile view  */
-  .card-wrapper {
-    background-color: #ffffff;
-    margin: 2rem;
-    /* height: 15rem; */
-    padding: 1rem;
-    /* 
-    display: flex;
-    flex-direction: column;
-    justify-content: center; */
-    /* width: 13rem; */
-  }
-  .create-info-wrapper .row {
-    display: flex;
-    justify-content: center;
-  }
-  .form-label {
-    font-size: 10px;
-    margin: 0;
-    padding: 0;
-  }
 }
