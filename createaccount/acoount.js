@@ -62,8 +62,10 @@ filterForm.addEventListener('click', () => {
         allResources.forEach( e => {
             if (e.classList.contains( "e-dividend")){
 
+                e.classList.remove('hide-resource')
                 e.classList.add('show-resource')
             } else {
+                e.classList.remove('show-resource')
                 e.classList.add('hide-resource')
                 
 
