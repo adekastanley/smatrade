@@ -25,6 +25,21 @@
 
     <div class="container form-wrapper">
       <div class="create-info-wrapper">
+        <div class="filter-resources-container">
+          <select
+            class="form-control"
+            id="filter-resources"
+            aria-label="Default select nationality"
+          >
+            <option selected>Filter Forms</option>
+            <option value="all">All Forms</option>
+            <option value="E-dividend">E-dividend</option>
+            <option value="fgn">FGN Savings Bond Forms</option>
+            <option value="transfer">Transfer Forms</option>
+            <option value="update">Update Forms</option>
+          </select>
+          <button class="btn btn-primary" id="filter-form">select</button>
+        </div>
         <!-- class applied here to reuse wrapper style from createaccount pages-->
         <div class="row">
           <div class="col-lg-4 col-sm-4 card-wrapper mx-1 resource e-dividend">
@@ -170,7 +185,7 @@
                 alt=" download-icon"
               />
             </a>
-            <h3>Meristem Registrars/h3>
+            <h3>Meristem Registrars</h3>
           </div>
           <div class="col-lg-4 col-sm-4 card-wrapper mx-1 resource e-dividend">
             <a download href="../resources/PAC REGISTRARS LTD.pdf"
@@ -183,7 +198,9 @@
             <h3>PAC Registrars</h3>
           </div>
           <div class="col-lg-4 col-sm-4 card-wrapper mx-1 resource e-dividend">
-            <a download href="../resources/PACE REGISTRARS (Formerly Sterling Reg).pdf"
+            <a
+              download
+              href="../resources/PACE REGISTRARS (Formerly Sterling Reg).pdf"
               ><img
                 class="button-icon"
                 src="../images/download-icon.png"
@@ -250,7 +267,7 @@
             </a>
             <h3>FGNSB Issuance Calendar</h3>
           </div>
-          <div class="col-lg-4 col-sm-4 card-wrapper mx-1 resource fgn">
+          <div class="col-lg-4 col-sm-4 card-wrapper mx-1 resource transfer">
             <a download href="../resources/INTERMEMBER TRANSFER FORM.pdf"
               ><img
                 class="button-icon"
@@ -260,11 +277,10 @@
             </a>
             <h3>Intermember Transfer Form</h3>
           </div>
-        
         </div>
         <!-- row 8  -->
         <div class="row">
-          <div class="col-lg-4 col-sm-4 card-wrapper mx-1 resource fgn">
+          <div class="col-lg-4 col-sm-4 card-wrapper mx-1 resource transfer">
             <a download href="../resources/NASD TRANSFER FORM.pdf"
               ><img
                 class="button-icon"
@@ -274,7 +290,7 @@
             </a>
             <h3>NASD Transfer Form</h3>
           </div>
-          <div class="col-lg-4 col-sm-4 card-wrapper mx-1 resource fgn">
+          <div class="col-lg-4 col-sm-4 card-wrapper mx-1 resource transfer">
             <a download href="../resources/SMSL TRANSFER FORM.pdf"
               ><img
                 class="button-icon"
@@ -284,7 +300,7 @@
             </a>
             <h3>Smadac Securities Transfer Form</h3>
           </div>
-          <div class="col-lg-4 col-sm-4 card-wrapper mx-1 resource fgn">
+          <div class="col-lg-4 col-sm-4 card-wrapper mx-1 resource update">
             <a download href="../resources/UPDATE FORM.pdf"
               ><img
                 class="button-icon"
@@ -294,21 +310,10 @@
             </a>
             <h3>Account Update Form</h3>
           </div>
-        
         </div>
         <!-- row 9  -->
         <div class="row">
-          <div class="col-lg-4 col-sm-4 card-wrapper mx-1 resource fgn">
-            <a download href="../resources/NASD TRANSFER FORM.pdf"
-              ><img
-                class="button-icon"
-                src="../images/download-icon.png"
-                alt=" download-icon"
-              />
-            </a>
-            <h3>NASD Transfer Form</h3>
-          </div>
-          <div class="col-lg-4 col-sm-4 card-wrapper mx-1 resource fgn">
+          <div class="col-lg-4 col-sm-4 card-wrapper mx-1 resource update">
             <a download href="../resources/SMADAC Consent Form.pdf"
               ><img
                 class="button-icon"
@@ -318,11 +323,7 @@
             </a>
             <h3>Consent Form</h3>
           </div>
-       
-        
         </div>
-
- 
 
         <!-- create-info-wrapper end -->
       </div>
@@ -333,5 +334,6 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
+    <script src="../createaccount/acoount.js"></script>
   </body>
 </html>

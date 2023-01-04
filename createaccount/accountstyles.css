@@ -145,6 +145,12 @@ header {
 .resource:hover a {
   background-color: #ee2629;
 }
+.hide-resource {
+  display: none;
+}
+.show-resource {
+  display: block;
+}
 
 /* for mobile view  */
 @media only screen and (max-device-width: 768px) {
