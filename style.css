@@ -152,6 +152,24 @@
 
 .section-2 {
 }
+.stock-img-cont {
+  display: flex;
+  justify-content: space-around;
+}
+.live-data .stock-img {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 1rem;
+}
+.live-data .prices {
+  font-size: large;
+  font-weight: bold;
+}
+@media only screen and (max-device-width: 768px) {
+  .live-data {
+    display: flex;
+  }
+}
 
 /* section 3, this is the card section */
 
