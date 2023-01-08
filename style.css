@@ -112,7 +112,12 @@
     #090319 100%
   );
 }
-
+/* desktop view  */
+@media only screen and (min-device-width: 768px) {
+  .topmost {
+    height: 40rem;
+  }
+}
 /* navigation end */
 
 .top-section {
@@ -121,8 +126,38 @@
     #13033f 0%,
     #090319 100%
   );
-  /* width: 100%; */
+  padding-top: 3rem;
 }
+.top-section .clock-img {
+  animation-name: rotate-clock;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  position: relative;
+  width: 60%;
+  left: 8rem;
+}
+/* below style fof mobile  */
+@media only screen and (max-device-width: 768px) {
+  .clock-img {
+    display: none;
+  }
+}
+
+@keyframes rotate-clock {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  10% {
+    transform: rotate(15deg) scale(1);
+  }
+  50% {
+    transform: rotate(-180deg) scale(1.4);
+  }
+  100% {
+    transform: rotate(-360deg) scale(1);
+  }
+}
+
 .top-text {
   position: relative;
   display: flex;
