@@ -343,7 +343,7 @@ footer .footer-logo {
 }
 
 .left-bottom {
-  text-align: right;
+  text-align: center;
 }
 
 .bottom-nav {
@@ -363,7 +363,7 @@ li {
 
 .socials {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   /* flex-direction: row; */
 }
 .socials li {
