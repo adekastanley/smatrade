@@ -114,9 +114,9 @@
 }
 /* desktop view  */
 @media only screen and (min-device-width: 768px) {
-  .topmost {
-    /* height: 40rem; */
-  }
+  /* .topmost {
+    height: 40rem;
+  } */
 }
 /* navigation end */
 
@@ -178,7 +178,7 @@
     background-image: url(./images/2clock.png);
   }
 }
-*/ .top-text {
+.top-text {
   position: relative;
   display: flex;
   flex-direction: column;
