@@ -115,7 +115,7 @@
 /* desktop view  */
 @media only screen and (min-device-width: 768px) {
   .topmost {
-    height: 40rem;
+    /* height: 40rem; */
   }
 }
 /* navigation end */
@@ -128,37 +128,57 @@
   );
   padding-top: 3rem;
 }
+
+/* .top-section .clock-img {
+
+  position: relative;
+  width: 60%;
+  left: 8rem;
+} */
+
 .top-section .clock-img {
   animation-name: rotate-clock;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  position: relative;
-  width: 60%;
-  left: 8rem;
 }
-/* below style fof mobile  */
+.show-clock {
+  display: block;
+}
+.hide-clock {
+  display: none;
+}
+/* below style fof mobile    */
+
 @media only screen and (max-device-width: 768px) {
   .clock-img {
     display: none;
   }
 }
-
-@keyframes rotate-clock {
-  0% {
-    transform: rotate(0deg) scale(1);
-  }
-  10% {
-    transform: rotate(15deg) scale(1);
-  }
-  50% {
-    transform: rotate(-180deg) scale(1.4);
-  }
-  100% {
-    transform: rotate(-360deg) scale(1);
-  }
+.clock-img-container {
+  /* background-image: url(./images/1clock.png); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  width: 40rem;
+  left: 2rem;
+  bottom: 3rem;
+  animation-name: rotate-clock;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
-.top-text {
+@keyframes rotate-clock {
+  30% {
+    background-image: url(./images/clock.png);
+  }
+  60% {
+    background-image: url(./images/1clock.png);
+  }
+  90% {
+    background-image: url(./images/2clock.png);
+  }
+}
+*/ .top-text {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -181,6 +201,7 @@
   height: 3rem;
   font-size: 500;
   font-weight: bold;
+  margin-bottom: 3rem;
 }
 .top-section .btn {
   font-size: 1.2;

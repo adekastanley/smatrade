@@ -13,7 +13,7 @@ body {
     padding-left: 10rem;
   }
   header {
-    height: 40rem;
+    height: 30rem;
     position: relative;
   }
   .text-container {
@@ -474,7 +474,16 @@ this is edited at the idividual media queries
 /* *
 * Login page css
 * */
-
+.cancel-container {
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  background-color: transparent;
+}
+.cancel-container img {
+  width: 25px;
+}
 .login-wallpaper {
   background-image: url("../images/loginwallpaper.png");
   width: 100px;
