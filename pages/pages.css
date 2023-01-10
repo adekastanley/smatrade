@@ -103,8 +103,8 @@ body {
     font-size: 300%;
   }
   .market-form .btn {
-    position: relative;
-    left: 12rem;
+    /* position: relative;
+    left: 12rem; */
   }
 
   /* *
@@ -407,23 +407,28 @@ this is edited at the idividual media queries
 
 /* market page css  */
 
-.market-section-2 {
+.market-section-container {
   background-color: #090319;
+  /* height: 30rem; */
 }
-.market-section-2 h3 {
-  margin: 2rem 0 1rem 0;
-  padding: 0 2rem;
-
-  /* media query edited  */
+.market-content-container .row {
+  width: 50rem;
 }
-
-.contact-container {
-  display: flex;
-  justify-content: center;
+.market-form-container {
+  background-color: white;
 }
 .contact-container form {
-  /* position: relative; */
-  /* background-color: red; */
+}
+
+.contact-image-container img {
+  width: 20rem;
+}
+.market-form-container,
+.contact-image-container {
+  /* width: 30rem; */
+}
+.market-form-imgage-container img {
+  height: 30rem;
 }
 .contact-container form .btn {
   /* position: relative;
