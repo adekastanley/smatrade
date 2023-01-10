@@ -96,16 +96,6 @@ body {
   .market-header {
     height: 20rem;
   }
-  .market-section-2 {
-    background-color: #090319;
-  }
-  .market-section-2 h3 {
-    font-size: 300%;
-  }
-  .market-form .btn {
-    /* position: relative;
-    left: 12rem; */
-  }
 
   /* *
 * signup page css
@@ -242,12 +232,16 @@ body {
   * market page css for mobile view
   * 
   */
-
+  .market-header {
+    height: 10rem;
+  }
   .market-section-2 h3 {
     font-size: 150%;
   }
-  .contact-container img {
+  .market-form-imgage-container {
     display: none;
+  }
+  .contact-container img {
   }
   .contact-container form {
     margin-bottom: 2rem;
@@ -283,11 +277,6 @@ body {
     bottom: 12rem;
   }
   .loginphoneimg {
-    /* position: absolute;
-  width: 20rem;
-  z-index: -1;
-  right: 25rem;
-  bottom: 3rem; */
     display: none;
   }
   .loginformlogo {
