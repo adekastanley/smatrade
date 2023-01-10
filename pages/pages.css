@@ -80,6 +80,10 @@ body {
     width: 100%;
   }
 
+  .service-section-3 .service-card-container {
+    padding: 5rem;
+  }
+
   .items img {
     width: 2rem;
   }
@@ -212,6 +216,9 @@ body {
     height: 5rem;
   }
 
+  .service-section-3 .service-card-container {
+    padding: 1rem;
+  }
   .block1 h3 {
     font-weight: bold;
     font-size: 50px;
@@ -241,8 +248,8 @@ body {
   .market-form-imgage-container {
     display: none;
   }
-  .contact-container img {
-  }
+  /* .contact-container img {
+  } */
   .contact-container form {
     margin-bottom: 2rem;
   }
@@ -378,6 +385,30 @@ p {
   background-size: contain;
   width: 100%;
 }
+.service-section-3 .service-card-container {
+  /* padding: 5rem; */
+}
+.service-card-container .items {
+  height: 25rem;
+  padding: 2rem;
+  position: relative;
+  padding-top: 6rem;
+}
+.service-card-container .items:hover {
+  background-color: #dfdaed;
+}
+.service-card-container .items:hover .arrows {
+  background-color: red;
+}
+.service-card-container p,
+.service-card-container h3 {
+  color: #090319;
+}
+.service-card-container .arrows {
+  position: absolute;
+  top: 1rem;
+  width: 3rem;
+}
 /* .items img {
 
 }
@@ -406,23 +437,19 @@ this is edited at the idividual media queries
 .market-form-container {
   background-color: white;
 }
-.contact-container form {
-}
+/* .contact-container form {
+} */
 
 .contact-image-container img {
   width: 20rem;
 }
-.market-form-container,
-.contact-image-container {
-  /* width: 30rem; */
-}
+
 .market-form-imgage-container img {
   height: 30rem;
 }
-.contact-container form .btn {
-  /* position: relative;
-  right: 13rem; */
-}
+/* .contact-container form .btn {
+
+} */
 
 /* *
 * signup page css
@@ -498,8 +525,8 @@ this is edited at the idividual media queries
   width: 30rem;
   /* padding: 5rem; */
 }
-.login-container form {
-}
+/* .login-container form {
+} */
 .form-container {
   width: 100%;
 }
