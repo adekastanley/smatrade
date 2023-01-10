@@ -209,6 +209,7 @@ body {
   * 
   */
 
+  /* services page  */
   .services-header {
     background-size: cover;
     background-attachment: scroll;
@@ -385,17 +386,27 @@ p {
   background-size: contain;
   width: 100%;
 }
-.service-section-3 .service-card-container {
-  /* padding: 5rem; */
+/* .service-section-3 .service-card-container {
+  edited at media queries
+} */
+.service-section-3 {
+  background-color: #f2f2f2;
 }
 .service-card-container .items {
   height: 25rem;
-  padding: 2rem;
+  padding: 1rem;
   position: relative;
   padding-top: 6rem;
+  transition: all ease-in-out 0.3s;
+  border: 2px solid #f2f2f2;
+  background-color: #ffffff;
+}
+.service-card-container div {
+  /* margin: 0.02px; */
 }
 .service-card-container .items:hover {
   background-color: #dfdaed;
+  border: 2px solid #ffffff;
 }
 .service-card-container .items:hover .arrows {
   background-color: red;
